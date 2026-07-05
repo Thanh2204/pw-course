@@ -1,4 +1,3 @@
-local: file2, file3
-working directory: 
+working directory: file2, file3
 staging area:
 repository: file1
