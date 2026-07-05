@@ -206,9 +206,9 @@ Luôn ưu tiên dùng `===`
 # Logical Operators
 
 | Operator | Ý nghĩa |
-| -------- | ------- | --- | --- |
+| -------- | ------- | 
 | &&       | AND     |
-|          |         |     | OR  |
+| ||       |  OR    |    
 
 ## Ví dụ
 
