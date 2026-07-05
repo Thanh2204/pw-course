@@ -1,0 +1,4 @@
+local: file2, file3
+working directory: 
+staging area:
+repository: file1

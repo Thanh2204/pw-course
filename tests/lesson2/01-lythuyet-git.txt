@@ -1,0 +1,7 @@
+Git init: là câu lệnh khởi tạo git cho folder, folder sẽ được quản lý bởi git
+
+git add <file_name>: là câu lệnh add file được chọn vào vùng staging area
+
+git add .: là câu lệnh add tất cả các file modified vào vùng staging, bao gồm các file mới, file modified, file bị delete
+
+git commit -m"message": là câu lệnh commit Là câu lệnh tạo 1 version mới từ các file trong staging area
