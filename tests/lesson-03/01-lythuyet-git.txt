@@ -1,0 +1,7 @@
+1. git commit --amend: Thay đổi commit, lệnh này sẽ mở VIM và ta có quyền chỉnh sửa trực tiếp
+
+2. git commit --amend -m"message": Thay đổi tên commit thành nhất thành "message"
+
+3. git restore --staged <file>: Chuyển file từ vùn staging về woriking directory
+
+4. git reset HEAD~1: quay về commit trước đó, đi từ repository về woking,  xóa commit mới nhất 

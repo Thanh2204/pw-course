@@ -1,0 +1,4 @@
+- local: 
+- working directory: file1.txt, oops/file3.txt
+- staging: 
+- repository: file2.txt
