@@ -37,3 +37,4 @@ function calculateInterst(principal,rate,years) {
 }
 
 console.log(calculateInterst(1000, 5, 2));
+

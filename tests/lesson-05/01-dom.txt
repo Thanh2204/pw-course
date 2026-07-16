@@ -1,0 +1,9 @@
+1. Cấu trúc DOM cơ bản
+cấu trúc DOM cơ bản của một trang web gồm:
+html-head-body-div-header
+
+2. Mô tả cấu trúc html của 1 bảng
+table-thead--tbody
+
+trong đó theah có thêm cấu trúc:
+thead-tr-th
