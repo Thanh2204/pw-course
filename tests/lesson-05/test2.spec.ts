@@ -16,6 +16,17 @@ test("Product Page", async ({ page }) => {
       await product1.getByRole("button", { name: "Add to Cart" }).click();
     }
 
+    /*
+    await product1.getByRole("button", { name: "Add to Cart" }).click(
+      {
+        clickCount: 2
+      }
+    );
+    */
+    
+
+
+
     //Product1
     const product2 = page
       .locator(".product-info")

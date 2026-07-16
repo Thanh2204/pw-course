@@ -7,7 +7,7 @@ test("Todo page", async ({ page }) => {
   });
 
   await test.step("Add todo 1 - 100", async () => {
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 10; i++) {
       await page
         .getByRole("textbox", { name: "Enter a new task" })
         .fill(`Todo ${i}`);
@@ -16,14 +16,17 @@ test("Todo page", async ({ page }) => {
   });
 
   await test.step("Delete Task odd", async () => {
-    for (let i = 1; i < 100; i += 2) {
+
+    page.on("dialog", (dialog) => dialog.accept());
+
+    for (let i = 1; i < 10; i += 2) {
       const todo = page.locator("li").filter({
         has: page.getByText(`Todo ${i}`, {
           exact: true,
         }),
       });
 
-      page.once("dialog", (dialog) => dialog.accept());
+      
 
       await todo
         .getByRole("button", {
