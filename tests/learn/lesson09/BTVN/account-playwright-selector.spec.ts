@@ -143,6 +143,7 @@ test.describe("ACCOUNT-account", async () => {
 
     await test.step("Go to user manage page", async () => {
       await homePage.menuUsers.click();
+      // Chỗ này nếu cần hover thì xem ở Notion note
       await expect(homePage.menuUsers).toBeVisible();
     });
 
